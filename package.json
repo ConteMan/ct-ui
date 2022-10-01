@@ -1,0 +1,22 @@
+{
+  "name": "ct-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ConteMan",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "vite": "^3.1.4"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "vue": "^3.2.40"
+  }
+}

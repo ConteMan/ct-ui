@@ -1,0 +1,13 @@
+<h1>Demo - Index</h1>
+<div id="app"></div>
+<script type="module">
+  import { createApp } from "vue/dist/vue.esm-bundler.js";
+  import CTUI, { SFCButton, JSXButton, MyButton } from "../../dist/ct-ui.mjs";
+
+  createApp({
+    template: `
+      <SButton/>
+      <JSXButton/>
+      <SFCButton/>
+  `}).use(CTUI).mount('#app')
+</script>
